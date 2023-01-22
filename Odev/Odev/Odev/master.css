@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+pre {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.center h3 {
+    letter-spacing: 22px;
+    text-align: center;
+}
+
+.center h1 {
+    letter-spacing: 7px;
+    text-align: center;
+
+
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(img/arkaplan.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 75vh;
+}
+
+.navbar {
+    padding-bottom: 20px;
+    transition: 0.5s ease-in-out;
+
+
+}
+
+.navbar:hover {
+    background-color: rgba(0, 0, 0, 0.393);
+
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px;
+    line-height: 63px;
+}
+
+.navbar ul a {
+    display: inline-block;
+    margin: 0px 10px;
+    line-height: 63px;
+    color: white;
+
+
+}
+
+a {
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+
+a::before {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: 0.25s ease-out;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 12px;
+    font-weight: bolder;
+
+}
+
+.navbar ul li a:hover {
+    color: red;
+}
+
+.icon {
+    justify-content: right;
+    float: right;
+}
+
+.icon a {
+    transition: 0.3s ease-in-out;
+}
+
+.icon a:hover {
+    color: red;
+}
+
+.menu {
+    justify-content: right;
+    float: right;
+
+}
+
+.button1 {
+    background-color: red;
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 17px 17px;
+}
+
+.btn {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    float: right;
+}
+
+.foto {
+    position: relative;
+}
+
+.center {
+    font-family: 'Dosis', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.button2 {
+    margin: 20px 280px;
+
+}
+
+.button2 {
+    background-color: rgba(110, 105, 105, 0.384);
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 17px 17px;
+    transition: 0.5s ease;
+    font-weight: bold;
+
+}
+
+.button2:hover {
+    background-color: red;
+}
+
+.main {
+    margin-bottom: 125px;
+}
+
+.main .baslik {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-top: 40%;
+    color: rgb(70, 69, 69);
+
+
+}
+
+.main pre {
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: rgb(160, 160, 160);
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.kutu {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.kutu {
+    display: flex;
+}
+
+.kutu .kutu1 {
+    margin-top: 40px;
+    margin-left: 60px;
+    padding: 45px;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+
+}
+
+.kutu .kutu2 {
+    margin-top: 40px;
+    padding: 45px;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+}
+
+.kutu .kutu3 {
+    margin-top: 40px;
+    padding: 45px;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+}
+
+.kutu .kutu4 {
+    margin-top: 40px;
+    padding: 45px;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+}
+
+.kutu .kutuson {
+    margin-top: 40px;
+    padding: 45px;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    margin-bottom: 500px;
+}
+
+.kutu1:hover {
+    cursor: pointer;
+}
+
+.kutu2:hover {
+    cursor: pointer;
+}
+
+.kutu3:hover {
+    cursor: pointer;
+}
+
+.kutu4:hover {
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    margin-top: 100px;
+    background: radial-gradient(ellipse at top, #2a2a2a 0%, #161616 66%);
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+footer .content {
+    max-width: 1250px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 40px 40px 40px;
+
+}
+
+.content .content-left {
+    justify-content: space-around;
+    display: flex;
+}
+
+.content-left .recommended {
+    padding-left: 90px;
+}
+.content .zeplin-left .feed{
+    color: #c73131;
+}
+.content .zeplin-left a {
+    flex-direction: column;
+    display: flex;
+    color: #fff;
+    display: block;
+    padding: 7px 15px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.content .zeplin-left a:hover {
+    color: #C31F1F !important;
+}
+
+.content .recommended h4 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 7px 0;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.content .recommended ul li {
+    display: block;
+    padding: 13px 0;
+    color: #969696;
+    font-size: 18px;
+    -webkit-transition: all .12s;
+    -moz-transition: all .12s;
+    transition: all .12s;
+}
+
+.content .recommended ul li:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.content-right .social {
+    text-align: right;
+    letter-spacing: 5px;
+}
+
+.content-right .social img {
+    height: 20px;
+    padding-left: 200px;
+}
+
+.content-right .social .social-media a {
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    border-radius: 100%;
+    padding-left: 5px;
+    text-align: center;
+    background: #303030;
+    color: #131313;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+.content-right .social-media .facebook:hover {
+    color: #fff;
+    background-color: #4267B2;
+}
+
+.content-right .social-media .twitter:hover {
+    color: #fff;
+    background-color: #1DA1F2;
+}
+
+.content-right .social-media .tumblr:hover {
+    color: #fff;
+    background-color: #2d5276;
+}
+
+.content-right .social-media .pinterest:hover {
+    color: #fff;
+    background-color: #E60023;
+}
+
+.content-right .dot .circle,
+.circlered {
+    text-align: right;
+    font-size: 14px;
+    padding-top: 40px;
+    color: rgb(120, 120, 120);
+}
+
+.content-right .dot .circlered {
+    color: #c20000;
+}
+
+.content .about {
+    padding-left: 70px;
+}
+
+.content .about h4 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 7px 0;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.content .about ul li {
+    display: block;
+    padding: 13px 0;
+    color: #969696;
+    font-size: 18px;
+    -webkit-transition: all .12s;
+    -moz-transition: all .12s;
+    transition: all .12s;
+}
+
+.content .about ul li:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+footer .bottom-details {
+    width: 100%;
+}
+
+footer .bottom-details .bottom_text {
+    max-width: 1250px;
+    margin: auto;
+    border-top: 1px solid #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+    font-size: 18px;
+    font-weight: 300;
+    color: #737373;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.bottom-details .bottom_text a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.bottom-details .bottom_text a {
+    margin-right: 10px;
+}
